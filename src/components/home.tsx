@@ -302,3 +302,5 @@ export default Home;
 // Feature cards active
 
 // Quickstart navigation links connected
+
+// Typography polish
