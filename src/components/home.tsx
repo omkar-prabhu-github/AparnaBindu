@@ -300,3 +300,5 @@ const Home = () => {
 
 export default Home;
 // Feature cards active
+
+// Quickstart navigation links connected
