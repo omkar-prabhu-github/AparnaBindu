@@ -242,3 +242,5 @@ export default KolamGallery;
 // Modal viewer inspection initialized
 
 // Categorization tags ready
+
+// Mobile grid breakpoints
