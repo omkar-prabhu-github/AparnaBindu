@@ -237,3 +237,4 @@ const KolamGallery: React.FC = () => {
 };
 
 export default KolamGallery;
+// Hover zoom transitions active
