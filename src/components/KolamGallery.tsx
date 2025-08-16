@@ -244,3 +244,5 @@ export default KolamGallery;
 // Categorization tags ready
 
 // Mobile grid breakpoints
+
+// Lazy loading support
