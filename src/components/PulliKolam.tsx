@@ -268,3 +268,5 @@ export default PulliKolam;
 // Undo/redo history stack
 
 // Clear canvas and export
+
+// Touch point interpolation
