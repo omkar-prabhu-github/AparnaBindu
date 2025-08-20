@@ -264,3 +264,5 @@ export default PulliKolam;
 // Snap-to-dot attraction
 
 // Bezier stroke smoothing
+
+// Undo/redo history stack
