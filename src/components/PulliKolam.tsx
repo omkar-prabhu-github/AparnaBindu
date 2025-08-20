@@ -262,3 +262,5 @@ export default PulliKolam;
 // Matrix coordinate math
 
 // Snap-to-dot attraction
+
+// Bezier stroke smoothing
