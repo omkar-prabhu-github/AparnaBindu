@@ -266,3 +266,5 @@ export default PulliKolam;
 // Bezier stroke smoothing
 
 // Undo/redo history stack
+
+// Clear canvas and export
