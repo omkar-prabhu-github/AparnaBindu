@@ -259,3 +259,4 @@ const PulliKolam: React.FC = () => {
 };
 
 export default PulliKolam;
+// Matrix coordinate math
