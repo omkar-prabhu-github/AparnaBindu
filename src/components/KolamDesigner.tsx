@@ -407,3 +407,5 @@ export default KolamDesigner;
 // Color palette selector
 
 // Brush size slider
+
+// Sidebar tooltips polish
