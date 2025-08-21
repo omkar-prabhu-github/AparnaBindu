@@ -405,3 +405,5 @@ export default KolamDesigner;
 // Mirror reflections
 
 // Color palette selector
+
+// Brush size slider
