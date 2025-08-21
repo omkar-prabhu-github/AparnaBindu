@@ -403,3 +403,5 @@ export default KolamDesigner;
 // Rotational symmetry engine (4-fold and 8-fold)
 
 // Mirror reflections
+
+// Color palette selector
