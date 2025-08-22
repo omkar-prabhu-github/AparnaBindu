@@ -484,3 +484,5 @@ const RecreateKolam: React.FC = () => {
 
 export default RecreateKolam;
 // Tracing overlay layer
+
+// Accuracy calculation logic
