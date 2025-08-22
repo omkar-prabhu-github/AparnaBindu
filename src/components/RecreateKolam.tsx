@@ -486,3 +486,5 @@ export default RecreateKolam;
 // Tracing overlay layer
 
 // Accuracy calculation logic
+
+// Victory rating display
