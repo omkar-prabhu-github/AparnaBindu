@@ -654,3 +654,5 @@ export default ClassifyKolam;
 // Drag-and-drop uploader
 
 // Preview canvas preprocessing
+
+// Output cards format
