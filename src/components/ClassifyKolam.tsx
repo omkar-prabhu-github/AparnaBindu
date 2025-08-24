@@ -651,3 +651,4 @@ const ClassifyKolam: React.FC = () => {
 };
 
 export default ClassifyKolam;
+// Drag-and-drop uploader
