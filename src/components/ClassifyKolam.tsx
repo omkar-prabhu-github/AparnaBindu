@@ -658,3 +658,5 @@ export default ClassifyKolam;
 // Output cards format
 
 // Confidence progress bars
+
+// Pattern class details
