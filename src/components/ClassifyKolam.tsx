@@ -656,3 +656,5 @@ export default ClassifyKolam;
 // Preview canvas preprocessing
 
 // Output cards format
+
+// Confidence progress bars
