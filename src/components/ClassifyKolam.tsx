@@ -660,3 +660,5 @@ export default ClassifyKolam;
 // Confidence progress bars
 
 // Pattern class details
+
+// History export logging
