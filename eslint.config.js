@@ -22,3 +22,4 @@ export default defineConfig([
   },
 ])
       
+// Clean imports rule verification
