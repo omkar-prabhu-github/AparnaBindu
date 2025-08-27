@@ -270,3 +270,5 @@ export default PulliKolam;
 // Clear canvas and export
 
 // Touch point interpolation
+
+// Touch event normalization
