@@ -9,3 +9,5 @@ export default defineConfig({
 })
 
 // Chunk splitting optimization
+
+// GitHub Pages base deployment URL verified
