@@ -70,6 +70,3 @@ export const Header: React.FC<HeaderProps> = ({ scrollY, isMenuOpen, setIsMenuOp
     </header>
   );
 };
-// Mobile drawer navigation
-
-// Accessibility attributes

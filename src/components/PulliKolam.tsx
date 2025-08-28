@@ -259,16 +259,3 @@ const PulliKolam: React.FC = () => {
 };
 
 export default PulliKolam;
-// Matrix coordinate math
-
-// Snap-to-dot attraction
-
-// Bezier stroke smoothing
-
-// Undo/redo history stack
-
-// Clear canvas and export
-
-// Touch point interpolation
-
-// Touch event normalization

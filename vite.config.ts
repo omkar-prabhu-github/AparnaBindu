@@ -7,7 +7,3 @@ export default defineConfig({
   base: '/AparnaBindu/',
   plugins: [react(), tailwindcss()],
 })
-
-// Chunk splitting optimization
-
-// GitHub Pages base deployment URL verified

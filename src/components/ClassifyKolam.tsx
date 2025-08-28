@@ -651,14 +651,3 @@ const ClassifyKolam: React.FC = () => {
 };
 
 export default ClassifyKolam;
-// Drag-and-drop uploader
-
-// Preview canvas preprocessing
-
-// Output cards format
-
-// Confidence progress bars
-
-// Pattern class details
-
-// History export logging

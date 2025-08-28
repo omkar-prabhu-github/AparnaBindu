@@ -286,4 +286,3 @@ const About: React.FC = () => {
 };
 
 export default About;
-// Cultural background documentation

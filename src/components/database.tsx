@@ -264,8 +264,3 @@ const Database = () => {
 };
 
 export default Database;
-// Pagination logic added
-
-// Search filter implemented
-
-// Metadata badges and styling

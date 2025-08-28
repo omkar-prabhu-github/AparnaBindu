@@ -399,13 +399,3 @@ const KolamDesigner: React.FC = () => {
 };
 
 export default KolamDesigner;
-
-// Rotational symmetry engine (4-fold and 8-fold)
-
-// Mirror reflections
-
-// Color palette selector
-
-// Brush size slider
-
-// Sidebar tooltips polish

@@ -42,5 +42,3 @@ Make sure you have Node.js and npm installed on your system.
 
 This project was built specifically for our SIH submission to demonstrate the front-end capabilities of AparnaBindu.
           
-
-<!-- Verified production build -->

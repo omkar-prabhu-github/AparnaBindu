@@ -237,12 +237,3 @@ const KolamGallery: React.FC = () => {
 };
 
 export default KolamGallery;
-// Hover zoom transitions active
-
-// Modal viewer inspection initialized
-
-// Categorization tags ready
-
-// Mobile grid breakpoints
-
-// Lazy loading support
