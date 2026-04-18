@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "type": "Butterfly Kolam",
+    "imageUrl": "/kolam_gallery/butterfly/train_butterfly_circle_uellow_blue_pink_green_edges.jpg",
+    "href": "/gallery/butterfly",
+    "description": "Relies heavily on Eulerian circuits connecting the grid to trace segmented wing geometries in a single continuous line."
+  },
+  {
+    "id": 2,
+    "type": "Cow Kolam",
+    "imageUrl": "/kolam_gallery/cow/test_cowrangoli_0002.jpg",
+    "href": "/gallery/cow",
+    "description": "Bridges curved segments combining graph-theoretic cycles that enclose maximum grid points while preserving the motif."
+  },
+  {
+    "id": 3,
+    "type": "Creeper Kolam",
+    "imageUrl": "/kolam_gallery/creeper/test_creeper_green_leaves_red_flowers.jpg",
+    "href": "/gallery/creeper",
+    "description": "Continuous meandering border lines forming sine-wave-like oscillations acting as endless knots."
+  },
+  {
+    "id": 4,
+    "type": "Elephant Kolam",
+    "imageUrl": "/kolam_gallery/elephant/train_elephantrangoli_0014.jpg",
+    "href": "/gallery/elephant",
+    "description": "Breaks down complex curves into piecewise linear or arc combinations on a modular grid approach."
+  },
+  {
+    "id": 5,
+    "type": "Fish Kolam",
+    "imageUrl": "/kolam_gallery/fish/train_fish_mandala.jpg",
+    "href": "/gallery/fish",
+    "description": "Traverses optimal paths across the underlying pulli matrix using closely packed rhombuses."
+  },
+  {
+    "id": 6,
+    "type": "Flower Kolam",
+    "imageUrl": "/kolam_gallery/flower/test_kolam_0129 (2).jpg",
+    "href": "/gallery/flower",
+    "description": "Modeled using polar coordinates to map intersecting petals out from the central origin."
+  },
+  {
+    "id": 7,
+    "type": "Footprint Kolam",
+    "imageUrl": "/kolam_gallery/footprint/train_kolam_0042 (3).jpg",
+    "href": "/gallery/footprint",
+    "description": "Designed as smaller, discrete sub-graphs where nodes form specific non-crossing pairings to guide paths."
+  },
+  {
+    "id": 8,
+    "type": "Geometric Kolam",
+    "imageUrl": "/kolam_gallery/geometric/train_kolam_0318.jpg",
+    "href": "/gallery/geometric",
+    "description": "Uses pure straight lines and right-angle connections as complex cellular automata arrays."
+  },
+  {
+    "id": 9,
+    "type": "Kambi Kolam",
+    "imageUrl": "/kolam_gallery/kambi/train_geometric_flower_square.jpg",
+    "href": "/gallery/kambi",
+    "description": "Alternating knots forming a single Unknot or link of Unknots crossing following strict over-under rules."
+  },
+  {
+    "id": 10,
+    "type": "Loops Kolam",
+    "imageUrl": "/kolam_gallery/loops/train_sikkurangoli_0026.jpg",
+    "href": "/gallery/loops",
+    "description": "Generates a minimal set of closed, non-intersecting curved loops woven through a hexagonal or orthogonal grid."
+  },
+  {
+    "id": 11,
+    "type": "Om Kolam",
+    "imageUrl": "/kolam_gallery/om/train_kolam_0007.jpg",
+    "href": "/gallery/om",
+    "description": "Combines the non-symmetric calligraphy at the origin (0,0) with balanced traditional cyclic embellishments."
+  },
+  {
+    "id": 12,
+    "type": "Peacock Kolam",
+    "imageUrl": "/kolam_gallery/peacock/train_peacock_colourfull_orange_pink_green.jpg",
+    "href": "/gallery/peacock",
+    "description": "Recursive geometric additions where each feather acts as a self-similar fractal sub-pattern."
+  }
+]
