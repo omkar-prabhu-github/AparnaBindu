@@ -252,7 +252,7 @@ const RecreateKolam: React.FC = () => {
                             <div className="relative">
                               {/* Image preview */}
                               <img 
-                                src={imagePreviewUrl} 
+                                src={imagePreviewUrl?.startsWith('/') ? import.meta.env.BASE_URL + imagePreviewUrl.slice(1) : imagePreviewUrl}
                                 alt="Uploaded kolam" 
                                 className="w-full h-64 object-contain rounded-lg" 
                               />
@@ -365,7 +365,7 @@ const RecreateKolam: React.FC = () => {
                   >
                     <div className="md:col-span-1">
                       <img 
-                        src={activeImage} 
+                        src={activeImage?.startsWith('/') ? import.meta.env.BASE_URL + activeImage.slice(1) : activeImage} 
                         alt="Featured Generated Kolam" 
                         className="w-full h-full object-cover min-h-[300px] md:min-h-[350px]"
                       />
@@ -419,7 +419,7 @@ const RecreateKolam: React.FC = () => {
                       >
                         <div className="relative overflow-hidden">
                           <img 
-                            src={src} 
+                            src={src?.startsWith('/') ? import.meta.env.BASE_URL + src.slice(1) : src} 
                             alt={`Generated Kolam ${idx + 1}`} 
                             className="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-105" 
                           />

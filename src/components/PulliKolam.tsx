@@ -201,7 +201,7 @@ const PulliKolam: React.FC = () => {
                   >
                     <div className="relative overflow-hidden h-48">
                       <img 
-                        src={src} 
+                        src={src?.startsWith('/') ? import.meta.env.BASE_URL + src.slice(1) : src}
                         alt={`Pulli Kolam ${idx+1}`} 
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                       />
@@ -239,7 +239,7 @@ const PulliKolam: React.FC = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <img 
-              src={selectedImage} 
+              src={selectedImage?.startsWith('/') ? import.meta.env.BASE_URL + selectedImage.slice(1) : selectedImage} 
               alt="Enlarged kolam pattern" 
               className="w-full h-full object-contain" 
             />

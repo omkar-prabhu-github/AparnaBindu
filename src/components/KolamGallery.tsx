@@ -68,7 +68,7 @@ const KolamCard: React.FC<KolamCardProps> = ({ type, imageUrl, index, href = '#'
           {/* Image Container */}
           <div className="relative w-1/2 overflow-hidden">
             <img 
-              src={imageUrl}
+              src={imageUrl?.startsWith('/') ? import.meta.env.BASE_URL + imageUrl.slice(1) : imageUrl}
               alt={type}
               className="absolute inset-0 w-full h-full bg-cover bg-center object-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
             />

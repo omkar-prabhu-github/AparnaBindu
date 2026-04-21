@@ -33,7 +33,7 @@ const useDatabaseImages = (): ImageEntry[] => {
     ];
     
     const results: ImageEntry[] = imageNames.map(name => ({
-      url: `/kolam_database/${name}`,
+      url: `${import.meta.env.BASE_URL}kolam_database/${name}`,
       name: name
     }));
     

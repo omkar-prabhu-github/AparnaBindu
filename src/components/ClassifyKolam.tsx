@@ -327,7 +327,7 @@ const ClassifyKolam: React.FC = () => {
                     
                     <div className="flex justify-center items-center p-4 bg-amber-50/50 border border-amber-200 rounded-lg">
                       <img 
-                        src={imagePreviewUrl} 
+                        src={imagePreviewUrl?.startsWith('/') ? import.meta.env.BASE_URL + imagePreviewUrl.slice(1) : imagePreviewUrl} 
                         alt="Uploaded preview" 
                         className="rounded-lg shadow-inner border border-amber-700/20 max-h-[300px] object-contain w-full bg-white p-2"
                         style={{ boxShadow: 'inset 0 2px 6px 0 rgba(146, 64, 14, 0.1)' }}
