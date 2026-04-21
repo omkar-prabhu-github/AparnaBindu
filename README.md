@@ -1,76 +1,77 @@
-# React + TypeScript + Vite
+# AparnaBindu (Version 1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**GitHub Repository:** [https://github.com/omkar-prabhu-github/AparnaBindu](https://github.com/omkar-prabhu-github/AparnaBindu)
 
-Currently, two official plugins are available:
+This is the **front-end only** version of AparnaBindu, originally developed for our SIH (Smart India Hackathon) project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
 
-## React Compiler
+Make sure you have Node.js and npm installed on your system.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Use
 
-## Expanding the ESLint configuration
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   This will start the Vite development server. Open your browser and navigate to the local link provided in the terminal (usually `http://localhost:5173`) to view the application.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+   This compiles the application into the `dist` folder, ready for deployment.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+4. **Preview the production build:**
+   ```bash
+   npm run preview
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Deployment on GitHub Pages
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+There are a few ways to deploy a Vite React app to GitHub Pages. Here is the standard manual approach:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. **Update `vite.config.ts`:**
+   Add a `base` property to your `vite.config.ts` reflecting your repository name:
+   ```typescript
+   export default defineConfig({
+     base: '/repository-name/', // Replace with your GitHub repo name
+     plugins: [react()],
+   })
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-"# AparnaBindu" 
-"# AparnaBindu" 
-"# AparnaBindu" 
+2. **Install `gh-pages`:**
+   ```bash
+   npm install gh-pages --save-dev
+   ```
+
+3. **Update `package.json` scripts:**
+   Add the following scripts to your `package.json`:
+   ```json
+   "scripts": {
+     // ...
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist"
+   }
+   ```
+
+4. **Deploy directly to GitHub Pages:**
+   ```bash
+   npm run deploy
+   ```
+   This command will automatically build the project and push the `dist` folder to a new `gh-pages` branch. Finally, go to your GitHub repository -> **Settings** -> **Pages** and ensure the source is set to your `gh-pages` branch.
+
+## Tech Stack
+- React
+- TypeScript
+- Vite
+- TailwindCSS (if applicable)
+
+## About
+
+This project was built specifically for our SIH submission to demonstrate the front-end capabilities of AparnaBindu.
