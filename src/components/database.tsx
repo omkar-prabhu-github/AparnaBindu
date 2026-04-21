@@ -3,41 +3,8 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Header } from './header';
 import Background from './Background';
-import { ChevronRight, Sparkles, Bot, BrainCircuit } from 'lucide-react';
+import { ChevronRight, Bot, BrainCircuit } from 'lucide-react';
 
-// --- Updated Mock Data ---
-const featuredKolams = [
-  {
-    id: 1,
-    type: '1-5-1 Kolams',
-    imageUrl: 'https://i.imgur.com/V9nZ5oH.jpg',
-    description: 'Classic patterns based on a 1-5-1 dot grid.',
-    link: '/database/1-5-1'
-  },
-  {
-    id: 2,
-    type: '1-7-1 Kolams',
-    imageUrl: 'https://i.imgur.com/3d0a7Xg.jpg',
-    description: 'More complex designs using a 1-7-1 dot structure.',
-    link: '#'
-  },
-  {
-    id: 3,
-    type: '5 * 5 Kolams',
-    imageUrl: 'https://i.imgur.com/SOtcC2Y.jpg',
-    description: 'Symmetrical patterns on a square 5x5 grid.',
-    link: '#'
-  },
-];
-
-const generativeKolam = {
-  id: 4,
-  type: 'Generative Kolams',
-  imageUrl: 'https://i.imgur.com/8FkEj5a.jpg',
-  description: 'Explore algorithmically generated patterns and create your own unique designs based on mathematical rules.',
-  link: '#', // Or link to a specific generative tool page
-  isLarge: true
-};
 
 
 // --- Dot Pattern Component ---

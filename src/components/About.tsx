@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Background from './Background';
 import { Header } from './header';
-import { Target, BrainCircuit, Palette, UploadCloud, Database, GitFork, Sparkles, ArrowDown, UserCheck, Server, Scaling } from 'lucide-react';
+import { Target, BrainCircuit, Palette, GitFork, Sparkles, ArrowDown, UserCheck } from 'lucide-react';
 
 const About: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
