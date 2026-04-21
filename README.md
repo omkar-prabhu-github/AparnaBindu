@@ -1,7 +1,6 @@
 # AparnaBindu (Version 1)
 
-**GitHub Repository:** [https://github.com/omkar-prabhu-github/AparnaBindu](https://github.com/omkar-prabhu-github/AparnaBindu)
-
+**Live Application:** [https://omkar-prabhu-github.github.io/AparnaBindu/](https://omkar-prabhu-github.github.io/AparnaBindu/)
 This is the **front-end only** version of AparnaBindu, originally developed for our SIH (Smart India Hackathon) project.
 
 ## Prerequisites
@@ -32,45 +31,12 @@ Make sure you have Node.js and npm installed on your system.
    npm run preview
    ```
 
-## Deployment on GitHub Pages
-
-There are a few ways to deploy a Vite React app to GitHub Pages. Here is the standard manual approach:
-
-1. **Update `vite.config.ts`:**
-   Add a `base` property to your `vite.config.ts` reflecting your repository name:
-   ```typescript
-   export default defineConfig({
-     base: '/repository-name/', // Replace with your GitHub repo name
-     plugins: [react()],
-   })
-   ```
-
-2. **Install `gh-pages`:**
-   ```bash
-   npm install gh-pages --save-dev
-   ```
-
-3. **Update `package.json` scripts:**
-   Add the following scripts to your `package.json`:
-   ```json
-   "scripts": {
-     // ...
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist"
-   }
-   ```
-
-4. **Deploy directly to GitHub Pages:**
-   ```bash
-   npm run deploy
-   ```
-   This command will automatically build the project and push the `dist` folder to a new `gh-pages` branch. Finally, go to your GitHub repository -> **Settings** -> **Pages** and ensure the source is set to your `gh-pages` branch.
 
 ## Tech Stack
 - React
 - TypeScript
 - Vite
-- TailwindCSS (if applicable)
+- TailwindCSS
 
 ## About
 
